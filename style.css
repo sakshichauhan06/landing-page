@@ -1,15 +1,63 @@
-.one {
-    background-color: #1F2937;
-    color: #fff;
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
 }
 
 .header {
     display: flex;
+    justify-content: space-between;
+    padding: 16px 40px;
 }
 
-.header-link {
-    flex-direction: column;
+.header-links {
+    display: flex;
 }
 
+.welcome {
+    display: flex;
+    padding: 80px;
+}
 
+.big {
+    font-size: 48px;
+    font-weight: bolder;
+    padding: 2px 0;
+}
 
+.extra {
+    padding: 8px 0;
+}
+
+.btn {
+    padding: 4px;
+
+}
+
+.two {
+    display: flex;
+}
+
+.some {
+    display: flex;
+    justify-content: center;
+}
+
+.boxes {
+    display: flex;
+}
+
+.three {
+    display: flex;
+}
+
+.four {
+    display: flex;
+}
