@@ -1,3 +1,7 @@
+body {
+    padding: 80px;
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -40,18 +44,36 @@ ul {
     padding: 4px;
 
 }
-
-.two {
-    display: flex;
-}
-
+/* part two of the page */
 .some {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    padding: 24px;
 }
 
 .boxes {
+    padding: 20px;
     display: flex;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border: 3px solid blue;
+    border-radius: 10px;
+    padding: 14px;
+}
+
+.box-one, .box-two, .box-three, .box-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    text-align: center;
 }
 
 .three {
