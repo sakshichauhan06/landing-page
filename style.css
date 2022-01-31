@@ -1,5 +1,7 @@
 body {
-    padding: 80px;
+    padding: 5px 80px;
+    display: flex;
+
 }
 
 ul {
@@ -45,6 +47,11 @@ ul {
 
 }
 /* part two of the page */
+.two {
+    padding: 20px 80px;
+    /* here need to do something about the left and right padding */
+}
+
 .some {
     text-align: center;
     padding: 24px;
@@ -66,20 +73,52 @@ ul {
     padding: 14px;
 }
 
-.box-one, .box-two, .box-three, .box-four {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .info {
     text-align: center;
+    padding: 8px;
 }
 
+/* part three of the page, i.e., the quote part */
 .three {
+    padding: 16px 170px;
+}
+
+.quote {
+    padding: 16px;
+}
+
+.author {
+    padding: 8px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* part four of the page, the banner part */
+.four {
+    padding: 16px 94px;
+}
+
+.banner {
     display: flex;
 }
 
-.four {
-    display: flex;
+.contact {
+    padding: 0 46px;
+}
+
+.blue-btn {
+    padding: 2px 10px;
+    border: white;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    justify-content: flex-end;
+    /* button wrapping */
+}
+
+/* last part of the page */
+.five {
+    align-items: flex-end;
+    padding: 20px;
+    text-align: center;
 }
