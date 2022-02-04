@@ -1,7 +1,8 @@
-body {
-    /* padding: 5px 80px; */
+html, body {
+    font-family: 'Roboto', sans-serif;  
     display: flex;
-
+    margin: 0;
+    padding: 0;  
 }
 
 ul {
@@ -20,24 +21,44 @@ ul {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 5px 80px;
+    padding: 16px 160px 16px 160px;
     font-size: 24px;
     font-weight: bolder;
     background-color: #1F2937;
     color: #fff;
+    align-items: baseline;
+}
+
+li {
+    margin: 12px
 }
 
 .header-links {
     display: flex;
-    font-size: 18px;
-    font-weight: normal;
+    font-size: 16px;
+    font-weight: lighter;
 }
 
 .welcome {
     display: flex;
-    padding: 190px 80px;
+    padding: 90px 160px 40px 160px;
     background-color: #1F2937;
     color: #fff;
+}
+
+.text {
+    padding: 0px 40px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: flex-start;
+    justify-content: flex-start;
+}
+
+.image {
+    padding: 0px 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .big {
@@ -51,18 +72,25 @@ ul {
 }
 
 .btn {
-    padding: 4px;
-
+    padding: 9px 26px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3b82f6;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #fff;
 }
+
 /* part two of the page */
 .two {
-    padding: 20px 80px;
+    padding: 20px 260px;
     /* here need to do something about the left and right padding */
 }
 
 .some {
     text-align: center;
-    padding: 24px;
+    font-size: 24px;
+    padding: 8px;
 }
 
 .boxes {
@@ -72,6 +100,7 @@ ul {
 
 .box {
     display: flex;
+    justify-items: center;
     justify-content: center;
     align-items: center;
     width: 60px;
@@ -79,6 +108,13 @@ ul {
     border: 3px solid blue;
     border-radius: 10px;
     padding: 14px;
+}
+
+.box-one, .box-two, .box-three, .box-four {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
 }
 
 .info {
