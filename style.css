@@ -30,7 +30,10 @@ ul {
 }
 
 li {
-    margin: 12px
+    cursor: pointer;
+    margin: 12px;
+    font-weight: 360;
+    color: #c0c3c9;
 }
 
 .header-links {
@@ -78,6 +81,7 @@ li {
     background-color: #3b82f6;
     font-size: 15px;
     font-weight: bolder;
+    cursor: pointer;
     color: #fff;
 }
 
@@ -150,33 +154,56 @@ li {
 
 /* part four of the page, the banner part */
 .four {
-    padding: 80px 94px;
+    padding: 80px 190px;
+}
+
+.bottom-btn {
+    /* padding: 2px 10px;
+    border: 10px white;
+    background-color: #3b82f6;
+    color: white;
+    border-radius: 10px; */
+    margin: 10px;
+    padding: 1px 24px;
+    background-color: #3b82f6;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    justify-content: flex-end;
+    /* button wrapping */
 }
 
 .banner {
     display: flex;
-    padding: 80px 220px;
+    padding: 40px 20px;
+    border-radius: 8px;
     background-color: #3b82f6;
 }
 
 .contact {
-    padding: 0 46px;
+    padding: 0 160px 0 90px;
     color: #fff;
 }
 
-.bottom-btn {
-    padding: 2px 10px;
-    border: 3px white;
-    background-color: #3b82f6;
-    color: white;
-    border-radius: 10px;
-    justify-content: flex-end;
-    /* button wrapping */
+.call {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.brief {
+    padding: 4px 0;
+    font-weight: 300;
 }
 
 /* last part of the page */
 .five {
     align-items: flex-end;
-    padding: 20px;
+    padding: 40px;
     text-align: center;
+    background-color: #1f2937;
+    color: #cacccf;
+    font-size: 16px;
 }
